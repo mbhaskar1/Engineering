@@ -1,0 +1,63 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Recursive Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <!--Web Page Heading-->
+    <div id="top">
+        <h1>Programming Projects 2017-2018</h3>
+    </div>
+    <!--Task Bar-->
+    <div class="buttons" style="height:80px">
+        <a href="home.html"><button style="width:20%">Home</button></a>
+        <a href="rttt.html"><button style="width:20%">Recursive Tic Tac Toe</button></a>
+        <a href="dcg.html"><button style="width:20%">Dragon Curve Generator</button></a>
+        <a href="mag.html"><button style="width:20%">Mondrian Art Generator</button></a>
+        <a href="sga.html"><button style="width:20%">Snake Genetic Algorithm</button></a>
+    </div>
+    <!--Page Specific Content-->
+    <div id="content">
+        <br>
+        <img src="rttt/Banner.png" style="width:60%; height:auto; display: block; margin:auto;">
+        <p>
+            Recursive Tic Tac Toe is an interesting variant of tic tac toe. The rules are the same with the one twist being that when an opponent makes a move,
+            you have the option to challenge that move. Challenging a move replaces that move with another tic tac toe board, and passes the turn back to the
+            oppponent. The opponent will then be forced to play inside that new tic tac toe board. Once the opponent's turn is over, the game will continue with
+            both players being able to play on the entire board. If a player wins a game on a smaller board, that board will be replaced with their piece. If a
+            smaller board is tied, that board will be replaced with an empty spot that anyone can play on. And that's basically it; whoever gets 3 pieces in a row
+            on the main board wins the game.
+        </p>
+        <p>
+            This game has been published to both the Google Play Store and the iOS App Store, and I've gotten over 100 total installs across both platforms.
+        </p>
+        <div id="imgs_horizontal">
+            <img src="rttt/a1.png" style="width:288px; height:512px; padding: 0px 20px">
+            <img src="rttt/a2.png" style="width:288px; height:512px; padding: 0px 20px">
+        </div>
+        <p>
+            One of my biggest accomplishments in this game was creating a full fledged AI that players can play against. I used the Monte Carlo Tree Search
+            Algorithm, one of the algorithms used as the base for Google's Deep Mind, to allow the AI to pick the best move it could identify within a
+            reasonable amount of time. In the game, I created varying difficulties for the AI by restricting this allowed time to different amounts.
+        </p>
+        <div id="imgs_horizontal">
+            <img src="rttt/p4.png" style="width:288px; height:512px; padding: 0px 20px">
+            <img src="rttt/p2.png" style="width:288px; height:512px; padding: 0px 20px">
+        </div>
+        <p>
+            Another feature I'm proud of in this game is the multiplayer functionality. I utilized the GameSparks back-end service to allow for turn based
+            gameplay between two devices. There are three modes in multiplayer: Ranked, Unranked, and With Friend. In ranked, you are placed against a players
+            with similar ability to yours based on your ELO ranking. If you win the game, your ELO rises, and if you lose, your ELO drops. Unranked
+            places you with a random player that is also queueing for an unranked match at the same time. Finally, With Friend allows you to create a game with
+            a random join code, and allow your friend to join that game by using that code.
+        </p>
+        <div id="imgs_horizontal">
+            <img src="rttt/p3.png" style="width:288px; height:512px; padding: 0px 20px">
+            <img src="rttt/p5.png" style="width:288px; height:512px; padding: 0px 20px">
+            <img src="rttt/p6.png" style="width:288px; height:512px; padding: 0px 20px">
+        </div>
+    </div>
+</body>
+</html>

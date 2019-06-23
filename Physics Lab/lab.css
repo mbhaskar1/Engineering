@@ -1,0 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #d8ffe4
+}
+
+h1, h3, ul, li, p{
+    text-align: center;
+}
+
+canvas{
+    background: #eeeeee;
+    display: block;
+    margin: 0 auto;
+}

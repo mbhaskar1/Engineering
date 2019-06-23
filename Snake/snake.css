@@ -1,0 +1,67 @@
+body {
+    background-color: #73C0FF;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+table{
+    margin: 0px auto;
+}
+
+table, td{
+    border-collapse: collapse;
+}
+
+.white {
+    background: #ffffff;
+}
+
+.transparent {
+    background: #73C0FF
+}
+
+.pink {
+    background: #FF95B8
+}
+
+.blue {
+    background: #2800FF
+}
+
+.red {
+    background: #FF0055
+}
+
+.black {
+    background: black
+}
+
+.yellow {
+    background: yellow;
+}
+
+.orange {
+    background: orange;
+}
+
+.green {
+    background: green;
+}
+
+.indigo {
+    background: indigo;
+}
+
+.violet {
+    background: violet;
+}

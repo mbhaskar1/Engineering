@@ -1,0 +1,65 @@
+body {
+    background-color: #73c0ff;
+}
+
+#top {
+    background-color: #299eff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.buttons button {
+    background-color: #43abff;
+    border: 5px solid #73c0ff;
+    border-radius: 10px;
+    height: 80px;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    font-size: 22px;
+}
+
+#content {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#img_center {
+    display: block;
+    margin: auto;
+}
+
+#imgs_horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+/*Everything after this point is CSS dedicated to making the table pixel art*/
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+#transparent {
+    background: #73C0FF
+}
+
+#pink {
+    background: #FF95B8
+}
+
+#blue {
+    background: #2800FF
+}
+
+#red {
+    background: #FF0055
+}
+
+#black {
+    background: black
+}
